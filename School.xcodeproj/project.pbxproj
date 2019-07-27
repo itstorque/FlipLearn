@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3253616420DBAC7400D648B7 /* mcqController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253616320DBAC7400D648B7 /* mcqController.swift */; };
+		3253616820DBE6E100D648B7 /* quizAssignerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253616720DBE6E100D648B7 /* quizAssignerViewController.swift */; };
+		32B9CC8B20C49A7C007AFE72 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9CC8A20C49A7C007AFE72 /* quizViewController.swift */; };
+		32B9CC8D20C49B53007AFE72 /* alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9CC8C20C49B53007AFE72 /* alignment.swift */; };
+		32B9CC9020C5D4A9007AFE72 /* boardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9CC8F20C5D4A9007AFE72 /* boardViewController.swift */; };
+		32B9CC9220C5DA6D007AFE72 /* coreImageVideoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9CC9120C5DA6D007AFE72 /* coreImageVideoFilter.swift */; };
 		751E40101EC4D79200289E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E400F1EC4D79200289E00 /* AppDelegate.swift */; };
 		751E40121EC4D79200289E00 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40111EC4D79200289E00 /* FirstViewController.swift */; };
 		751E40141EC4D79200289E00 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40131EC4D79200289E00 /* SecondViewController.swift */; };
@@ -15,6 +21,20 @@
 		751E401C1EC4D79200289E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751E401A1EC4D79200289E00 /* LaunchScreen.storyboard */; };
 		751E40271EC4D79200289E00 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40261EC4D79200289E00 /* SchoolTests.swift */; };
 		751E40321EC4D79200289E00 /* SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40311EC4D79200289E00 /* SchoolUITests.swift */; };
+		751E40401EC4DC0B00289E00 /* notesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E403F1EC4DC0B00289E00 /* notesViewController.swift */; };
+		751E40481EC5C8D700289E00 /* subjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40471EC5C8D700289E00 /* subjectCell.swift */; };
+		751E404A1EC5D81600289E00 /* participateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E40491EC5D81500289E00 /* participateViewController.swift */; };
+		752D131F203EAE85002167BC /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752D131E203EAE85002167BC /* NoteCell.swift */; };
+		7538B9D91EC639BE003E3F94 /* subjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7538B9D81EC639BE003E3F94 /* subjectCollectionViewCell.swift */; };
+		754326942041AAAD000A564E /* stopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754326932041AAAD000A564E /* stopwatchViewController.swift */; };
+		754326982041B30B000A564E /* graphBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 754326972041B30B000A564E /* graphBox.png */; };
+		7543269A2041B65A000A564E /* datasheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754326992041B65A000A564E /* datasheetViewController.swift */; };
+		754B98DE1EC7310800684341 /* whiteBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98DD1EC7310800684341 /* whiteBoardViewController.swift */; };
+		754B98E01EC7332100684341 /* motionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98DF1EC7332100684341 /* motionViewController.swift */; };
+		754B98E21EC752F800684341 /* calcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98E11EC752F800684341 /* calcViewController.swift */; };
+		754B98E41EC7603600684341 /* ExtraCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98E31EC7603600684341 /* ExtraCommandButton.swift */; };
+		754B98E61EC78FDD00684341 /* toDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98E51EC78FDD00684341 /* toDoViewController.swift */; };
+		754B98E81EC7900800684341 /* toDoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B98E71EC7900800684341 /* toDoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3253616320DBAC7400D648B7 /* mcqController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcqController.swift; sourceTree = "<group>"; };
+		3253616720DBE6E100D648B7 /* quizAssignerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizAssignerViewController.swift; sourceTree = "<group>"; };
+		32B9CC8A20C49A7C007AFE72 /* quizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
+		32B9CC8C20C49B53007AFE72 /* alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alignment.swift; sourceTree = "<group>"; };
+		32B9CC8F20C5D4A9007AFE72 /* boardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardViewController.swift; sourceTree = "<group>"; };
+		32B9CC9120C5DA6D007AFE72 /* coreImageVideoFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreImageVideoFilter.swift; sourceTree = "<group>"; };
 		751E400C1EC4D79200289E00 /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751E400F1EC4D79200289E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		751E40111EC4D79200289E00 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +75,20 @@
 		751E402D1EC4D79200289E00 /* SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751E40311EC4D79200289E00 /* SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolUITests.swift; sourceTree = "<group>"; };
 		751E40331EC4D79200289E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751E403F1EC4DC0B00289E00 /* notesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notesViewController.swift; sourceTree = "<group>"; };
+		751E40471EC5C8D700289E00 /* subjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subjectCell.swift; sourceTree = "<group>"; };
+		751E40491EC5D81500289E00 /* participateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = participateViewController.swift; sourceTree = "<group>"; };
+		752D131E203EAE85002167BC /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		7538B9D81EC639BE003E3F94 /* subjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		754326932041AAAD000A564E /* stopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stopwatchViewController.swift; sourceTree = "<group>"; };
+		754326972041B30B000A564E /* graphBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graphBox.png; path = ../graphBox.png; sourceTree = "<group>"; };
+		754326992041B65A000A564E /* datasheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datasheetViewController.swift; sourceTree = "<group>"; };
+		754B98DD1EC7310800684341 /* whiteBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whiteBoardViewController.swift; sourceTree = "<group>"; };
+		754B98DF1EC7332100684341 /* motionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motionViewController.swift; sourceTree = "<group>"; };
+		754B98E11EC752F800684341 /* calcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calcViewController.swift; sourceTree = "<group>"; };
+		754B98E31EC7603600684341 /* ExtraCommandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraCommandButton.swift; sourceTree = "<group>"; };
+		754B98E51EC78FDD00684341 /* toDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoViewController.swift; sourceTree = "<group>"; };
+		754B98E71EC7900800684341 /* toDoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +142,27 @@
 				751E400F1EC4D79200289E00 /* AppDelegate.swift */,
 				751E40111EC4D79200289E00 /* FirstViewController.swift */,
 				751E40131EC4D79200289E00 /* SecondViewController.swift */,
+				751E403F1EC4DC0B00289E00 /* notesViewController.swift */,
+				7538B9D81EC639BE003E3F94 /* subjectCollectionViewCell.swift */,
+				751E40491EC5D81500289E00 /* participateViewController.swift */,
+				752D131E203EAE85002167BC /* NoteCell.swift */,
+				751E40471EC5C8D700289E00 /* subjectCell.swift */,
+				754B98DD1EC7310800684341 /* whiteBoardViewController.swift */,
+				754B98DF1EC7332100684341 /* motionViewController.swift */,
+				754B98E11EC752F800684341 /* calcViewController.swift */,
+				754B98E31EC7603600684341 /* ExtraCommandButton.swift */,
+				754B98E51EC78FDD00684341 /* toDoViewController.swift */,
+				754B98E71EC7900800684341 /* toDoCollectionViewCell.swift */,
+				754326992041B65A000A564E /* datasheetViewController.swift */,
+				754326932041AAAD000A564E /* stopwatchViewController.swift */,
+				32B9CC8C20C49B53007AFE72 /* alignment.swift */,
+				32B9CC8A20C49A7C007AFE72 /* quizViewController.swift */,
+				3253616720DBE6E100D648B7 /* quizAssignerViewController.swift */,
+				32B9CC8F20C5D4A9007AFE72 /* boardViewController.swift */,
+				32B9CC9120C5DA6D007AFE72 /* coreImageVideoFilter.swift */,
+				3253616320DBAC7400D648B7 /* mcqController.swift */,
 				751E40151EC4D79200289E00 /* Main.storyboard */,
+				754326972041B30B000A564E /* graphBox.png */,
 				751E40181EC4D79200289E00 /* Assets.xcassets */,
 				751E401A1EC4D79200289E00 /* LaunchScreen.storyboard */,
 				751E401D1EC4D79200289E00 /* Info.plist */,
@@ -191,12 +251,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Tareq El Dandachi";
 				TargetAttributes = {
 					751E400B1EC4D79200289E00 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = Q84B6R4TXL;
+						DevelopmentTeam = EYE528U7VW;
 						ProvisioningStyle = Automatic;
 					};
 					751E40211EC4D79200289E00 = {
@@ -240,6 +300,7 @@
 			files = (
 				751E401C1EC4D79200289E00 /* LaunchScreen.storyboard in Resources */,
 				751E40191EC4D79200289E00 /* Assets.xcassets in Resources */,
+				754326982041B30B000A564E /* graphBox.png in Resources */,
 				751E40171EC4D79200289E00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +326,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B9CC9020C5D4A9007AFE72 /* boardViewController.swift in Sources */,
+				754B98E01EC7332100684341 /* motionViewController.swift in Sources */,
+				32B9CC9220C5DA6D007AFE72 /* coreImageVideoFilter.swift in Sources */,
+				754B98E41EC7603600684341 /* ExtraCommandButton.swift in Sources */,
+				3253616820DBE6E100D648B7 /* quizAssignerViewController.swift in Sources */,
+				754B98E81EC7900800684341 /* toDoCollectionViewCell.swift in Sources */,
+				751E40401EC4DC0B00289E00 /* notesViewController.swift in Sources */,
+				7538B9D91EC639BE003E3F94 /* subjectCollectionViewCell.swift in Sources */,
 				751E40141EC4D79200289E00 /* SecondViewController.swift in Sources */,
+				754B98E21EC752F800684341 /* calcViewController.swift in Sources */,
+				751E404A1EC5D81600289E00 /* participateViewController.swift in Sources */,
+				754326942041AAAD000A564E /* stopwatchViewController.swift in Sources */,
+				751E40481EC5C8D700289E00 /* subjectCell.swift in Sources */,
+				7543269A2041B65A000A564E /* datasheetViewController.swift in Sources */,
+				3253616420DBAC7400D648B7 /* mcqController.swift in Sources */,
 				751E40101EC4D79200289E00 /* AppDelegate.swift in Sources */,
+				754B98DE1EC7310800684341 /* whiteBoardViewController.swift in Sources */,
+				32B9CC8D20C49B53007AFE72 /* alignment.swift in Sources */,
+				32B9CC8B20C49A7C007AFE72 /* quizViewController.swift in Sources */,
+				752D131F203EAE85002167BC /* NoteCell.swift in Sources */,
 				751E40121EC4D79200289E00 /* FirstViewController.swift in Sources */,
+				754B98E61EC78FDD00684341 /* toDoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,15 +411,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -381,15 +469,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -419,12 +515,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q84B6R4TXL;
+				DEVELOPMENT_TEAM = EYE528U7VW;
 				INFOPLIST_FILE = School/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atto.School;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atto.Flip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -432,12 +531,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q84B6R4TXL;
+				DEVELOPMENT_TEAM = EYE528U7VW;
 				INFOPLIST_FILE = School/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atto.School;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atto.Flip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -518,6 +620,7 @@
 				751E40381EC4D79200289E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		751E40391EC4D79200289E00 /* Build configuration list for PBXNativeTarget "SchoolTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +629,7 @@
 				751E403B1EC4D79200289E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		751E403C1EC4D79200289E00 /* Build configuration list for PBXNativeTarget "SchoolUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +638,7 @@
 				751E403E1EC4D79200289E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
